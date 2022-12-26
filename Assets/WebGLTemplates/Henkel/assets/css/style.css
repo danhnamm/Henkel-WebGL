@@ -1,0 +1,37 @@
+@import './modal.css';
+@import './btn.css';
+html{
+    font-size: 10px;
+}
+.mb-1{
+    margin-bottom: 1rem;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+#share-img-preview{
+    height: 50%;
+}
+#share-img-user{
+    width: auto;
+    max-height: 100%;
+}
+@media  (orientation: landscape){
+    #share-img-preview{
+        height: unset;
+    }
+}
+@media  (orientation: portrait){
+}
+@media (max-width: 991.98px) and (orientation: landscape){
+[data-section-popup]{
+    overflow: auto;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
+}
+#share-img-user{
+    width: 100% !important;
+    height: auto !important;
+}
+}

@@ -1,0 +1,242 @@
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Sit on top */
+    /* padding-top: 60px; */
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+    text-align: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    margin: auto;
+    padding: 0;
+    /* border: 1px solid #888; */
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    color: var(--modal-text-color);
+    -webkit-animation-duration: .7s;
+    animation-duration: .7s;
+    background: var(--modal-bg-color);
+    border-radius: 10px;
+    width: 80%;
+    max-width: 500px;
+}
+
+.modal-content.modal-animtop {
+    -webkit-animation-name: animatetop;
+    animation-name: animatetop;
+}
+
+.modal-content.modal-animtop.modal-center {
+    -webkit-animation-name: animatetop-center;
+    animation-name: animatetop-center;
+}
+
+.modal-content.modal-animbottom.modal-center {
+    -webkit-animation-name: animatebottom-center;
+    animation-name: animatebottom-center;
+}
+
+.modal-content.modal-animbottom {
+    -webkit-animation-name: animatebottom;
+    animation-name: animatebottom;
+}
+
+.modal-center {
+    top: 50%;
+    border-radius: unset;
+    transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes animatetop-center {
+    from {
+        top: 0;
+        opacity: 0
+    }
+
+    to {
+        top: 50%;
+        opacity: 1
+    }
+}
+
+@keyframes animatetop-center {
+    from {
+        top: 0;
+        opacity: 0
+    }
+
+    to {
+        top: 50%;
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes animatebottom-center {
+    from {
+        top: 100%;
+        opacity: 0
+    }
+
+    to {
+        top: 50%;
+        opacity: 1
+    }
+}
+
+@keyframes animatebottom-center {
+    from {
+        top: 100%;
+        opacity: 0
+    }
+
+    to {
+        top: 50%;
+        opacity: 1
+    }
+}
+
+/* The Close Button */
+.modal-header .close {
+    color: #f00;
+    float: right;
+    font-size: 40px;
+    font-weight: 600;
+    /* background-color: var(--yellow-color); */
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 18px;
+    margin-top: 3%;
+    margin-right: 1%;
+    position: absolute;
+    z-index: 5;
+    right: 0;
+    top: 0;
+}
+
+.modal-header .close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    /* background-color: #5cb85c; */
+    color: white;
+}
+
+.modal-body {
+    padding: 2px 16px;
+}
+
+.modal-footer {
+    padding: 2px 16px;
+    /* background-color: #5cb85c; */
+    color: white;
+}
+
+.modal-header h2,
+.modal-footer h2 {
+    opacity: 0;
+}
+#k-popup .modal-content {
+    background-size: 100% 100%;
+    width: calc((660 /828) * 30vh);
+    height: calc((828/660) * 30vh);
+    min-width: 30rem;
+    min-height: 30rem;
+    background: white;
+    font-size: 1.6rem;
+    border-radius: 20px;
+}
+#k-popup .modal-content.modal-content-lg{
+    width: calc((660 /828) * 50vh);
+    height: calc((828/660) * 50vh);
+}
+.h-100{
+    height: 100%;
+}
+.d-flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-column{
+    flex-direction: column;
+}
+.heading-popup{
+    margin-bottom: 1rem;
+}
