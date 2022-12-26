@@ -577,6 +577,42 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.865
       objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172613, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.60285795
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172613, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.60285807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172613, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.60285807
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172613, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.01
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172613, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172614, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_Size.x
+      value: 6.826667
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172614, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_Size.y
+      value: 3.84
+      objectReference: {fileID: 0}
+    - target: {fileID: 6318585428483172614, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 3494638461218707857, guid: 59c0cdd7dfdd1a04bac865628f168b24, type: 3}
+    - target: {fileID: 6318585428483172614, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6318585428874415481, guid: e8d7a2b6df8da5a40a1de3cc5ea6a57a, type: 3}
       propertyPath: ColorModule.enabled
       value: 1
@@ -1241,7 +1277,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2143521780}
   - component: {fileID: 2143521779}
-  - component: {fileID: 2143521778}
   - component: {fileID: 2143521777}
   m_Layer: 0
   m_Name: Preview Image
@@ -1291,20 +1326,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &2143521778
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2143521776}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!33 &2143521779
 MeshFilter:
   m_ObjectHideFlags: 0
