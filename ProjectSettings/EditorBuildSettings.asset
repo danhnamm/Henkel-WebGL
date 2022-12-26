@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
+    path: Assets/AR 3/AR 3.unity
+    guid: b5561efc09f959241ae0804b02f863ca
+  - enabled: 0
+    path: Assets/Test VideoPlayer.unity
+    guid: 1eb2c05b24dfc4441a4146bb84b8c7ad
+  - enabled: 0
+    path: Assets/AR 4 WorkShop/AR 4.unity
+    guid: 862118838a6372748a104f66ac2dc61d
+  - enabled: 0
+    path: Assets/VCB/VCB.unity
+    guid: 1f95c8cc1aba8754a89a1a504cbf6b92
+  - enabled: 0
+    path: Assets/New Scene 1.unity
+    guid: 536d79636f0a9904bb2b75516197a083
+  - enabled: 1
+    path: Assets/Henkel/Henkel.unity
+    guid: af2ddfaf53b73444fa192f4fa36da51a
+  m_configObjects: {}

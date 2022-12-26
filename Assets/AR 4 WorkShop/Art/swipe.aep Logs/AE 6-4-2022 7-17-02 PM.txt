@@ -1,0 +1,8 @@
+  6/4/2022 7:17:02 PM: Starting composition “swipe”.
+
+  Output To: E:\Uniqlo\New folder\swipe\swipe_[#####].png    6/4/2022 7:17:03 PM: Finished composition “swipe”.
+
+
+  Total Time Elapsed: 1 Seconds
+Log closed on 6/4/2022 at 7:17:03 PM
+
